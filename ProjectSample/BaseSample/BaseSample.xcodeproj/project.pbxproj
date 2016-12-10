@@ -10,7 +10,8 @@
 		B51042361DFBEB51003F2C32 /* BaseSample.h in Headers */ = {isa = PBXBuildFile; fileRef = B51042341DFBEB51003F2C32 /* BaseSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B51042501DFBECCC003F2C32 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = B510424E1DFBECCC003F2C32 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B51042511DFBECCC003F2C32 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B510424F1DFBECCC003F2C32 /* UIView+Extension.m */; };
-		B56FB58D1DFC570D00B80A1F /* LibrarySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B510428B1DFC4B31003F2C32 /* LibrarySample.framework */; };
+		B56FB5921DFC5AB300B80A1F /* LibrarySample.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = B510428B1DFC4B31003F2C32 /* LibrarySample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B56FB5941DFC617400B80A1F /* LibrarySample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B510428B1DFC4B31003F2C32 /* LibrarySample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,10 +27,11 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		B51042841DFC4A0C003F2C32 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B56FB5921DFC5AB300B80A1F /* LibrarySample.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56FB58D1DFC570D00B80A1F /* LibrarySample.framework in Frameworks */,
+				B56FB5941DFC617400B80A1F /* LibrarySample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +228,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -280,7 +282,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -313,10 +315,7 @@
 				INFOPLIST_FILE = BaseSample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zongren.BaseSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -336,10 +335,7 @@
 				INFOPLIST_FILE = BaseSample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zongren.BaseSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -349,10 +349,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = ProjectSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zongren.ProjectSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,10 +363,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = ProjectSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zongren.ProjectSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

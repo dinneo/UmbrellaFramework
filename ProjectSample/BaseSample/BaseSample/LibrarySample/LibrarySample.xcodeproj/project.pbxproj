@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B510426B1DFBF04C003F2C32 /* LibrarySample.h in Headers */ = {isa = PBXBuildFile; fileRef = B51042691DFBF04C003F2C32 /* LibrarySample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B51042731DFBF080003F2C32 /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = B51042711DFBF080003F2C32 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B51042741DFBF080003F2C32 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B51042721DFBF080003F2C32 /* UILabel+Extension.m */; };
+		B56FB5931DFC5B9300B80A1F /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B51042721DFBF080003F2C32 /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51042741DFBF080003F2C32 /* UILabel+Extension.m in Sources */,
+				B56FB5931DFC5B9300B80A1F /* UILabel+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

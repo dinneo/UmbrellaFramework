@@ -7,6 +7,7 @@
 //
 
 #import "UIView+Extension.h"
+#import <LibrarySample/LibrarySample.h>
 
 @implementation UIView(Extension)
 
@@ -14,6 +15,7 @@
     UILabel*label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 50)];
     [label setCenter:CGPointMake(self.frame.size.width/2, self.frame.size.height/2)];
     [label setText:toast];
+//    [label drawDeleteLine];
     [self addSubview:label];
     [self bringSubviewToFront:label];
 }

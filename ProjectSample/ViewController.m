@@ -21,13 +21,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self.view showToast:@"Toast"];
     [self.view addSubview:self.label];
-//    [self.label drawDeleteLine];
+    if([self.label respondsToSelector:@selector(drawDeleteLine)]){
+        [self.label drawDeleteLine];
+    }
 }
 
 -(UILabel*)label{
     if(!_label){
         _label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
-        [_label setText:@"Label"];
+        [_label setText:@"Deleted line"];
     }
     return _label;
 }

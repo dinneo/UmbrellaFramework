@@ -4,104 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/LibrarySample.framework/Info.plist</key>
+		<key>Info.plist</key>
 		<data>
 		Kwpuk9YXz5f2noU+INNcV+XhU+o=
 		</data>
-		<key>Frameworks/LibrarySample.framework/LibrarySample</key>
-		<data>
-		Uorb3TAJYQE0BdkC7YOQdGNUO9o=
-		</data>
-		<key>Frameworks/LibrarySample.framework/_CodeSignature/CodeResources</key>
-		<data>
-		iskYB+6WgYkPP+S0GizEf198O9U=
-		</data>
-		<key>Headers/BaseSample.h</key>
-		<data>
-		5zZLlXhvwtm0+xMa5F4557KoWcU=
-		</data>
-		<key>Headers/UIView+Extension.h</key>
-		<data>
-		2pkF0oEj9GoV9psXyoRA+A/Nqcg=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		cylBelqKJdMx7xInO2ZucffG7sk=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		F+wmLBEvEBZ3mELA3Q/kzKqh+M0=
-		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/LibrarySample.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Kwpuk9YXz5f2noU+INNcV+XhU+o=
-			</data>
-			<key>hash2</key>
-			<data>
-			ASChyIk81OTPIqg8nmF05JiTu4i54wC8E3PHl8a13LA=
-			</data>
-		</dict>
-		<key>Frameworks/LibrarySample.framework/LibrarySample</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Uorb3TAJYQE0BdkC7YOQdGNUO9o=
-			</data>
-			<key>hash2</key>
-			<data>
-			4g/ogRB7WZVVw/UBcmFHioxV0LQ7F5KNkGt3yQ7Iacc=
-			</data>
-		</dict>
-		<key>Frameworks/LibrarySample.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iskYB+6WgYkPP+S0GizEf198O9U=
-			</data>
-			<key>hash2</key>
-			<data>
-			DlS6r5zTsVXER+gL661aMLMY1f6N6O9UkChPztBXZM0=
-			</data>
-		</dict>
-		<key>Headers/BaseSample.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5zZLlXhvwtm0+xMa5F4557KoWcU=
-			</data>
-			<key>hash2</key>
-			<data>
-			1oYXtg2lsrW4ORT+s2za93LejcR1ZlyVEV2KEDUboNo=
-			</data>
-		</dict>
-		<key>Headers/UIView+Extension.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2pkF0oEj9GoV9psXyoRA+A/Nqcg=
-			</data>
-			<key>hash2</key>
-			<data>
-			ABMpaaJi3E1pGjJwXpqrcvbGEeN4ZSb53EuRRrMxaxc=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F+wmLBEvEBZ3mELA3Q/kzKqh+M0=
-			</data>
-			<key>hash2</key>
-			<data>
-			gwX2PGBhIWQ3S+Z3M8wVaXXhjcbzXxjiJdFnaiVsyyo=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^</key>
